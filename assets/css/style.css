@@ -1,13 +1,4 @@
 @charset "utf-8";
-/* ==========================================================================
-   1. CSS Reset Code
-   ========================================================================== */
-
-/* 1.1. Eric Meyers Reset
-   http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-   ========================================================================== */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
 ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
@@ -79,7 +70,7 @@ sub { bottom: -.25em; }
 }
 
 .cf:after { clear: both; }
-.cf { *zoom: 1; }
+.cf { zoom: 1; }
 
 /*for all*/
 body {
@@ -106,41 +97,27 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
-
-
-
-
-
-
+header span { color: green; }
 /*=================================
   Header styling ends here
 =================================*/  
 
+
+
 /*=================================
   main styling starts here
 =================================*/
-
-
-
-
-
-
-
-
+main span { color: blue; }
 /*=================================
   main styling ends here
 =================================*/
 
+
+
 /*=================================
   footer styling starts here
 =================================*/ 
-
-
-
-
-
-
-
+footer span { color: red; }
  /*=================================
   footer styling ends here
 =================================*/ 
